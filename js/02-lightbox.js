@@ -17,7 +17,6 @@ gallery.addEventListener("click", event => {
     let simpleGallery = new SimpleLightbox('.gallery a');
     simpleGallery.on('show.simplelightbox', function () {
     });
-    console.log(event.target.dataset.source);
 });
 
 console.log(galleryItems);
